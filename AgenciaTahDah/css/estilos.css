@@ -1,0 +1,125 @@
+@CHARSET "utf-8";
+
+/*
+Estilos CSS - Agência Tah-Dah
+
+ */
+
+* {
+    margin: 0;
+    padding:0;
+    
+}
+
+body {
+   
+	background: url("../img/imagem.jpg") no-repeat center center fixed;
+	background-size: cover;
+	-webkit-background-size: cover; SAFARI / CHROME
+	-moz-background-size: cover; FIREFOX
+	-ms-background-size: cover; IE
+	-o-background-size: cover; OPERA
+
+}
+
+#background_header{
+	
+	position:absolute;
+	width:900px;
+	
+}
+
+#logo{
+	
+	position: absolute;
+	wdith: 10px;
+	left: 50px;
+	
+}
+
+#titulo{
+		
+		font-family: Helvetica Neue;
+		font-size: 160%;
+		font-weight: bold;
+		top: 310px;
+		left:42%;
+		position: absolute;
+		color: white;
+	
+}
+
+#texto{
+	
+		font-family: Helvetica Neue;
+		font-size: 120%;
+		top: 350px;
+		left:42%;
+		position: absolute;
+		color: white;
+		font-weight: light;
+	
+}
+	
+input[type=text]{
+	
+	position: absolute;
+	border-radius:10px;
+    background: ffffff; 
+    border:200px solid ffffff;
+    width:800px;
+    height: 40px;
+
+	
+}
+
+input[type=submit]{
+	
+	position: absolute;	
+	border-radius:10px;  
+	display:block;
+	background-color: #337ab7;
+	width:800px;
+	height:40px;
+	border:200px; 
+	solid: #ffffff;
+	color: #adc3dd;
+	
+
+}
+
+form{
+	
+	position: relative;
+	top: 460px;
+	left: 40%;
+	border-radius: 4px;
+	display: block;
+	background-color: rgba(255, 255, 255, 0.3);
+	width: 800px;
+	height: 300px;
+	padding: 20px;
+}
+
+
+#background_footer{
+	
+	position: absolute;
+	bottom:-10px;
+	wdith: 10px;
+	left: 0px;
+	
+}
+
+#text_footer{
+	
+	font-family: Helvetica Neue;
+	font-size: 100%;
+	position: absolute;
+	bottom:5px;
+	wdith: 10px;
+	left: 50%;
+	color: #575757;
+	
+	
+}
